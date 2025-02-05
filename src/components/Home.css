@@ -1,0 +1,80 @@
+.home-container{
+    /* margin-top: 10px; */
+    /* border: 2px solid black; */
+    background-color: #FFAF24;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    z-index: -1;
+}
+.home-content{
+    /* border:1px solid red; */
+    display: inline-block;
+    margin: 15vh 0 0 10vh;
+    padding: 25px;
+    font-size: 5em;
+    color:#FFFFFF;
+}
+.p1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.p2{
+    font-size: 6rem;
+    font-weight:lighter;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.img1{
+    /* border:1px solid black; */
+    height: 40vh;
+    width: 40vw;
+    margin-top: 0px;
+    color:#F4F4F4;
+    /* background-image: url('C:\Users\DELL\Desktop\cinema-main\cinema-club\public\images\348481984.jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img2{
+    
+    
+    height: 100vh;
+    width: 45vw;
+    position: absolute;
+    right: 0px;
+    
+    
+    /* background-image: url('C:\Users\DELL\Desktop\cinema-main\cinema-club\src\filmstrip.png'); */
+    background-position:top 0px right 0px;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+
+}
+
+@media only screen and (width<=720px){
+    .home-container{
+        height: 40vh;
+        overflow-x: hidden;
+    }
+    .home-content{
+        /* border: 1px solid red; */
+        margin: 10vh 2em 0 0em;
+        padding: 20px;
+        font-size: 1em;
+
+        
+    }
+    .p2{
+        font-size: 2rem;
+    }
+    .img2{
+        height: 40vh;
+        width: 85vw;
+        
+
+    }
+}

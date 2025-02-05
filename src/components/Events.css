@@ -1,0 +1,130 @@
+.events-container{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    /* border:2px solid black */
+    
+
+}
+.p3h{
+    font-weight:400;
+    font-size: xx-large;
+    color: #111111;
+}
+.events-content{
+    /* border: 1px solid red; */
+    margin:25vh 0 0 10vh;
+    font-size:x-large;
+    color:#96876E;
+
+    
+}
+.imgcards{
+    position: relative;
+    height: 100vh;
+}
+.crd1{
+    /* border:1px solid red; */
+    position: absolute;
+    top:25vh;
+    left:300px;
+
+    width: 185.7px;
+    height: 169.7px;
+    transform: rotate(10.57deg);
+    /* background-image: url('C:\Users\DELL\Desktop\cinema-main\cinema-club\public\images\convohall.jpg'); */
+    background-size: cover;
+    
+
+}
+.crd2{
+    /* border:1px solid red; */
+    position: absolute;
+    top: 45vh;
+    left: 300px;
+    width: 200.81px;
+    height: 204.36px;
+    transform: rotate(-5.4deg);
+    /* background-image: url('C:\Users\DELL\Desktop\cinema-main\cinema-club\public\images\random.png'); */
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+
+}
+.crd3{
+    border:1px solid red;
+    position: absolute;
+    top:30vh;
+    left:400px;
+    width: 200.81px;
+    height: 271px;
+    transform: rotate(6.25deg);
+    /* background-image: url('C:\Users\DELL\Desktop\cinema-main\cinema-club\public\images\Picture6.jpg'); */
+    background-size: cover;
+    
+    
+
+}
+.crd4{
+    /* border:1px solid red; */
+    position: absolute;
+    top: 25vh;
+    left: 500px;
+    width: 200.81px;
+    height: 204.36px;
+    transform: rotate(-10.5deg);
+    /* background-image: url('C:\Users\DELL\Desktop\cinema-main\cinema-club\public\images\IMG_0734.jpg'); */
+    background-size: cover;
+
+}
+.crd5{
+    /* border:1px solid red; */
+    position: absolute;
+    
+    top: 50vh;
+    left: 500px;
+
+    width: 200.81px;
+    height: 204.36px;
+    transform: rotate(5.57deg);
+    /* background-image: url('C:\Users\DELL\Desktop\cinema-main\cinema-club\public\images\IMG_0788.jpg'); */
+    background-size: cover;
+    
+}
+
+@media only screen and (width<=720px){
+    .events-container{
+        flex-direction: column;
+        overflow-x: hidden;
+        overflow-y:hidden;
+        height:auto;
+    }
+    .imgcards{
+        height: auto;
+    }
+    .events-content{
+        margin: 2em 0 0 1em;
+        font-size: large;
+    }
+    .p3h{
+        font-size: x-large;
+    }
+    .crd1{
+        top:2em;
+        left: 2em;
+    }
+    .crd2{
+        top: 12em;
+        left: 2em;
+    }
+    .crd4{
+        left:10em;
+        top: 2em;
+    }
+    .crd5{
+        left:10em;
+        top: 12em;
+
+    }
+    
+}
+

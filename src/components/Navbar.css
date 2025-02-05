@@ -1,0 +1,44 @@
+.Navbar-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    background-color: #FFAF24;
+    /* border: 1px solid black; */
+    filter:drop-shadow(0 10px 9px rgba(0,0,0,0.35));
+    
+    
+}
+.logo{
+    width: 7vw;
+    height: 5vh;
+    /* border: 1px solid black; */
+    margin: 10px 0 0 45px;
+    /* background-image: url('C:\Users\DELL\Desktop\cinema-main\cinema-club\src\logo.png'); */
+    background-size: contain;
+    background-repeat:no-repeat;
+}
+.navbar-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 1em;
+}
+ul>li{
+    margin-right: 15px;
+    
+    /* text-decoration: none; */
+}
+ul>li>a{
+    text-decoration: none;
+    color:#FFFFFF;
+}
+
+@media only screen and (width<=720px){
+    .logo{
+        height: 2em;
+        width: 7em;
+        margin: 1em 1em 0 1em;
+    }
+
+}

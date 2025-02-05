@@ -1,0 +1,34 @@
+.einfo-container{
+    /* border: 2px solid black; */
+    height: 100vh;
+    padding: 1em 8em 0 8em;
+    background-color: #695533;
+}
+.einfo-parent{
+    /* border: 1px solid red; */
+    color:#FFF0D4;
+}
+
+.einfo-parent h2{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 40px;
+
+}
+
+@media only screen and (width<=720px){
+    .einfo-container{
+        padding: 1em 0 0 2.5em;
+        height:auto;
+        border: 1px solid #695533;
+        
+    }
+    .einfo-parent h2{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 39px;
+    }
+}

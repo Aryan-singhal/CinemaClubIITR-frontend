@@ -1,0 +1,10 @@
+.box{
+    height: 50vh;
+    width: 38vh;
+    border-radius: 25px; 
+    background-clip: content-box;
+    background-size:38vh 50vh ;
+    background-repeat: no-repeat;
+    
+
+}
