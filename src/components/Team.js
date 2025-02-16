@@ -18,7 +18,7 @@ function Team() {
       Name:"Ayush Saini",
         // https://drive.google.com/open?id=1bCaOWWZmMzKRM_1fbyXARqJVa67Bzbl_
         img:"http://drive.google.com/uc?export=view&id=1bCaOWWZmMzKRM_1fbyXARqJVa67Bzbl_",
-        position:"website Developer ",
+        position:"Web Developer ",
         Iglink:"",
         Linlink:"https://www.linkedin.com/in/ayush-saini-51535b222/",
         Tlink:"https://twitter.com/AYUSHSA42951195",
