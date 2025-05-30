@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import './Teamcard.css'
-import InstagramIcon from '@mui/icons-material/Instagram';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import TwitterIcon from '@mui/icons-material/Twitter';
+// import InstagramIcon from '@mui/icons-material/Instagram';
+// import LinkedInIcon from '@mui/icons-material/LinkedIn';
+// import TwitterIcon from '@mui/icons-material/Twitter';
 
 function Teamcard(props) {
   return (
@@ -13,9 +13,9 @@ function Teamcard(props) {
         </div>
         <div className="tcardcontent">
             <p>{props.Name}</p>
-            <span>{props.position}</span>
+            <span id="position">{props.position}</span>
         </div>
-        <div className="tcardlinks">
+        {/* <div className="tcardlinks">
           
           
             <a href={props.Linlink} target='_blank'>
@@ -33,7 +33,7 @@ function Teamcard(props) {
           
           </Link>
 
-        </div>
+        </div>  */}
       
     </div>
   )

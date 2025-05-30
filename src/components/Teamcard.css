@@ -1,31 +1,56 @@
 .tcard{
-    height:fit-content;
-    width:fit-content;
-    border: 1px solid rgba(255, 240, 212, 1);
-    border-radius: 5%;
-    /* padding: 1em; */
+    height:250px;
+    width: 90%;
+    border: 3px solid rgb(104, 104, 104);
+    border-radius: 6%;
+
+    background-color: black;
+    margin-bottom: 5%;
+    transition: all 0.3s ease;
 }
+
+.tcard:hover{
+   transform:scale(1.05);
+   background-color: rgb(192, 182, 95);
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+#position{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#695533;;
+    font-size:17px;
+}
+
 .tcardimg{
     /* border: 1px solid red; */
-    height: 23.5vh;
-    width: 23.5vh;
+    height: 180px;
+    width: 70%px;
     border-radius: 5%;
-    margin: auto;
+    margin-top:0px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
     
     /* background-color: rgba(217, 217, 217, 1); */
 }
 .tcardcontent{
-    /* border: 1px solid red; */
+    padding-top: 10px;
     text-align: center;
+   
+    line-height: 1px;
+    
 }
 
 .tcardcontent p{
-    margin: 0px 0 0 auto;
+    /* margin: 0px 0 0 auto;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 28.6827px;
-    line-height: 34px;
+    line-height: 34px; */
     /* identical to box height */
     
     
@@ -43,17 +68,17 @@
     color: #96876E;
 }
 
-.tcardlinks{
+/* .tcardlinks{
     height: 2em;
     border-radius: 0 0 0.6em 0.6em;
     background-color: #FFF0D4 ;
     /* border: 1px solid red; */
-    display: flex;
-    justify-content:space-evenly;
+    /* display: flex;
+    justify-content:space-evenly;} */
     
-}
 
-.ig{
+
+/* .ig{
     color: palevioletred;
 }
 .twit{
@@ -61,13 +86,27 @@
 }
 .lin{
     color: #0A66C2;
-}
+} */
 
-@media only screen and (width<=720px){
+/* @media only screen and (width<=720px){
     .tcard{
         /* margin-left: 2em; */
         /* margin-right: 4em; */
-        width:min-content;
-    }
+        /* width:min-content;}} */
+/* .tcard {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr); /* 3 members per row by default */
+
+
     
-}
+        /* @media (max-width: 768px) { 
+  .tcard {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+
+@media (max-width: 480px) { 
+  .team-container {
+    grid-template-columns: repeat(1, 1fr);
+  }}} */ 
