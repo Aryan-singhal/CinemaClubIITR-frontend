@@ -1,73 +1,82 @@
-.tcard{
-    height:fit-content;
-    width:fit-content;
-    border: 1px solid rgba(255, 240, 212, 1);
-    border-radius: 5%;
-    /* padding: 1em; */
+.tcard {
+    width: 250px;
+    border: 2px solid #FFF0D4;
+    border-radius: 10px;
+    overflow: hidden;
+   
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.tcardimg{
-    /* border: 1px solid red; */
-    height: 23.5vh;
-    width: 23.5vh;
-    border-radius: 5%;
-    margin: auto;
-    
-    /* background-color: rgba(217, 217, 217, 1); */
+
+.tcard:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(255, 240, 212, 0.3);
+    background-color: #FFAF24;
 }
-.tcardcontent{
-    /* border: 1px solid red; */
+
+.tcardimg {
+    width: 100%;
+
+    object-fit: cover;
+    display: block;
+}
+
+.tcardcontent {
+    padding: 1em;
     text-align: center;
 }
 
-.tcardcontent p{
-    margin: 0px 0 0 auto;
+.tcardcontent p {
     font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 28.6827px;
-    line-height: 34px;
-    /* identical to box height */
-    
-    
+    font-weight: 600;
+    font-size: 20px;
     color: #FFF0D4;
+    margin: 0.2em 0;
 }
 
-.tcardcontent span{
-    margin-left: auto;
+.tcardcontent span {
     font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 500;
-    font-size: 20.0643px;
-    line-height: 24px;
-    
+    font-size: 16px;
     color: #96876E;
 }
 
-.tcardlinks{
-    height: 2em;
-    border-radius: 0 0 0.6em 0.6em;
-    background-color: #FFF0D4 ;
-    /* border: 1px solid red; */
+.tcardlinks {
+   
     display: flex;
-    justify-content:space-evenly;
-    
+    justify-content: center;
+    gap: 2em;
+    padding: 0.5em 0;
+    padding-left: 1em;
 }
 
-.ig{
-    color: palevioletred;
-}
-.twit{
-    color: 	#1DA1F2;
-}
-.lin{
-    color: #0A66C2;
+.ig { color: palevioletred; }
+.twit { color: #1DA1F2; }
+.lin { color: #0A66C2; }
+
+.tcard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  padding: 1em;
+  border: 1px solid rgba(255, 240, 212, 1);
+  border-radius: 5%;
+  width: fit-content;
+  height: fit-content;
+  background-color: #695533; 
+
 }
 
-@media only screen and (width<=720px){
-    .tcard{
-        /* margin-left: 2em; */
-        /* margin-right: 4em; */
-        width:min-content;
-    }
-    
+
+.tcardimg img {
+  height: 23.5vh;
+  width: 23.5vh;
+  border-radius: 50%;   
+  object-fit: cover;    
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  cursor: pointer;     
+}
+
+.tcardimg img:hover {
+  transform: scale(1.1);  
+  box-shadow: 0 0 15px 5px rgba(255, 240, 212, 0.7); 
 }
