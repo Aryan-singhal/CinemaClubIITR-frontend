@@ -1,77 +1,62 @@
-.screened-container{
+.screened-container {
     height: 100vh;
-    border:0.5px solid black;
-    /* margin:10vh 0 0 10vh; */
-    background-color:#695533;
-    margin-right: 0px;
-}
-.sdh{
-    margin:10vh 0 0 10vh;
-    color:#FFF0D4;
-}
-.box-container{
-    margin-top: 15vh;
-    width:100vw;
+    background-color: #695533;
+    padding: 2rem;
+    box-sizing: border-box;
+  }
+  
+  .sdh {
+    margin: 10px auto 0px;
+    color: #FFF0D4;
+    text-align: center;
+    width: fit-content;
     
+  }
+  
+  .scroll-wrapper {
+    width: 95%;
+    overflow: hidden;
+    position: relative;
+    margin: 50px auto 0px;
+    mask-image: linear-gradient(to right, 
+    rgba(0, 0, 0, 0), 
+    rgba(0, 0, 0, 1) 10%, 
+    rgba(0, 0, 0, 1) 90%, 
+    rgba(0, 0, 0, 0));
+    
+  }
+  
+  .scroll-track {
     display: flex;
-    
-    /* flex-direction: row; */
-    justify-content:space-evenly;
+    gap: 40px;
+    animation: scroll 25s linear infinite;
+    width: fit-content;
 
-    /* width: 100vw; */
-    
-}
-
-.box{
-    height: 50vh;
-    width: 38vh;
-    border-radius: 25px; 
-    background-clip: content-box;
-    background-size:38vh 50vh ;
-    background-repeat: no-repeat;
-    
-}
-#bx1{
-    /* background-image: url('C:\Users\DELL\Desktop\cinema-main\cinema-club\public\images\good newz.jpg'); */
-    
-}
-#bx2{
-    /* background-image: url('C:\Users\DELL\Desktop\cinema-main\cinema-club\public\images\chhapaak.png'); */
-
-}
-#bx3{
-    /* background-image: url('C:\Users\DELL\Desktop\cinema-main\cinema-club\public\images\rocketry.jpeg'); */
-    
-}
-#bx4{
-    /* background-image: url('C:\Users\DELL\Desktop\cinema-main\cinema-club\public\images\karthikeya 2.jpeg'); */
-    
-    /* background-repeat: no-repeat; */
-}
-#bx5{
-    /* background-image: url('C:\Users\DELL\Desktop\cinema-main\cinema-club\public\images\URI.jpeg'); */
-}
-
-@media only screen and (width<=720px){
-    .screened-container{
-        height: auto;
+  }
+  
+  .scroll-item {
+    flex: 0 0 auto;
+    width: 300px;
+    height: 400px;
+  }
+  
+  .scroll-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0%);
     }
-    .box-container{
-        /* border: 1px solid black; */
-        /* margin:2em 0 0 2em; */
-        margin-top: 2em;
-        padding-left: 2em;
-        flex-direction: column;
-        height: auto;
-        overflow-x: hidden;
+    100% {
+      transform: translateX(-50%);
     }
-    .box{
-        /* border: 1px solid red; */
-        height: 38vh !important;
-        background-size:38vh 38vh !important ;
-        margin-bottom: 1.5em;
-    }
-    .hide{
-        display: none;
-    }
-}
+  }
+  .sdh:hover {
+    text-shadow: 0 0 6px white;
+    cursor: pointer; 
+  }
+  
