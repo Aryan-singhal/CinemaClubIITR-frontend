@@ -1,71 +1,65 @@
-import React from 'react'
-import './Screened.css'
-import Box from './Box'
-
+import React from 'react';
+import './Screened.css';
 
 function Screened() {
+  const screened = [
+    {
+      imgurl: "https://c.ndtvimg.com/gws/ms/kesari-chapter-2-all-you-need-to-know-about-akshay-kumars-film/assets/1.png",
+      title: "Kesari 2"
+    },
+    {
+      imgurl: "https://assets.voxcinemas.com/posters/P_HO00011674_1731043173783.jpg",
+      title: "The Sabarmati Report"
+    },
+    {
+      imgurl: "https://m.media-amazon.com/images/I/61le8UqCrDL._AC_UF1000,1000_QL80_.jpg",
+      title: "Chhava"
+    },
+    {
+      imgurl: "https://m.media-amazon.com/images/M/MV5BYzMxNDRjZGUtMDg3OS00YWVkLThmMDYtOGUzODU5Njk1YTM1XkEyXkFqcGc@._V1_.jpg",
+      title: "Sam Bahadur"
+    },
+    {
+      imgurl: "https://resizing.flixster.com/6IVS7Xrmm-zUM0iuKk_yzJktXGE=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p15912149_v_v9_aa.jpg",
+      title: "Laila Majnu"
+    },
+    {
+      imgurl: "https://lh6.googleusercontent.com/proxy/b-Dj8RlGblXtO43JnUmixYgyuJS427Wg-eKga1mvZp5_zrXPUB4xPjwG5g6OASSk45PF5LSgsi7iDSa3JEfrEFrQ9S7iFwvbb0kpzfxjBf2WOya6",
+      title: "Tumbbad"
+    },
+    {
+      imgurl: "https://i.pinimg.com/736x/7d/ed/32/7ded324d49d8c984ab2e15bb25778aae.jpg",
+      title: "12th Fail"
+    },
+    {
+      imgurl: "https://i.pinimg.com/736x/df/da/ee/dfdaee9ed3ce449ddbf7e2fb0307c441.jpg",
+      title: "Jawan"
+    },
+    {
+      imgurl: "https://static.abplive.com/wp-content/uploads/2019/01/09093219/200276_uri_movie.jpg",
+      title: "URI"
+    },
+    {
+      imgurl: "https://upload.wikimedia.org/wikipedia/en/2/29/Bhediya_film_poster.jpg",
+      title: "Bhediya"
+    }
+  ];
 
-  let screened = [
-    {
-      rating:"5.3",
-      imgurl:"https://s01.sgp1.cdn.digitaloceanspaces.com/inline/fbuffigrhv-1578850957.png",
-      title:"Chappaak",
-      description:"Chhapaak is a Hindi-language drama film released in 2020, directed by Meghna Gulzar andproduced by Deepika Padukone, who also stars in the lead role. The movie is based on the real-life story ofacid attack survivor Laxmi Agarwal."
-      
-    },
-    {
-      rating:"7.3",
-        imgurl:"https://cinemaclub.iitr.ac.in/images/movies/mardaani2.jpeg",
-        title:"Mardaaani 2",
-        description:"A 21-year old boy Sunny has a penchant for sexually assaulting and killing girls. He's locked horns with top cop Shivani Shivaji Roy. Will she nab him? "
-    },
-    {
-      rating:"8.2",
-        imgurl:"https://im.rediff.com/movies/2019/jan/10uri20.jpg?w=670&h=900",
-        title:"URI",
-        description:"Uri: The Surgical Strike is a Hindi-language action film directed by Aditya Dhar and produced by Ronnie Screwvala. The film is based on the 2016 Uri attack and follows Major Vihaan Singh Shergill of the Indian Army, who leads a covert operation to avenge the attack. The film stars Vicky Kaushal, Paresh Rawal, and Yami Gautam in lead roles.  "
-    },
-    {
-      rating:"8.8",
-        imgurl:"https://stat5.bollywoodhungama.in/wp-content/uploads/2018/10/Rocketry-11-306x393.jpg",
-        title:"Rocketry",
-        description:"Rocketry: The Nambi Effect is a 2022 Indian biographical drama film written, produced and directed by R. Madhavan in his directorial debut. The film is based on the life of Nambi Narayanan, played by Madhavan, a scientist at the Indian Space Research Organisation, who was accused in the ISRO espionage case and later exonerated. "
-    },
-    {
-      rating:"8.2",
-        imgurl:"https://cinemaclub.iitr.ac.in/images/movies/chhichhore.webp",
-        title:"chhichhore",
-        description:"A tragic incident forces Anirudh a middle aged man,to take a trip down memory lane and reminisce his college days along with his friends, who were labelled as losers "
-    },
-    
-    
-
-  ]
   return (
     <div className='screened-container'>
-        <h1 className='sdh'>Movies Screened</h1>
-        <div className="box-container">
-          {screened.map((element)=>{
-            return(
-              <Box
-              url={element.imgurl}
-              />
-            )
-          })
-
-          }
-
-            {/* <div className="box" id='bx1'></div>
-            <div  className="box" id='bx2'></div>
-            <div className="box hide" id='bx3'></div>
-            <div className="box hide" id='bx4'></div>
-            <div className="box hide" id="bx5"></div> */}
-            
-           
+      <h1 className='sdh'>Movies Screened</h1>
+      <div className="scroll-wrapper">
+        <div className="scroll-track">
+          {[...screened, ...screened].map((movie, index) => (
+            <div className="scroll-item" key={index}>
+              <img src={movie.imgurl} alt={movie.title} />
+            </div>
+          ))}
         </div>
-        
+      </div>
     </div>
-  )
+  );
 }
 
-export default Screened
+export default Screened;
+
