@@ -1,43 +1,32 @@
-.Tcontainer{
+.Tcontainer {
     background-color: #695533;
-    height: 100vh;
-    margin-top: 0px;
-    padding:6em 0 0 6em;
+    padding: 6em 2em 2em 2em;
 }
 
-.Tcontainer h2{
-    margin-top: 0px;
+.Tcontainer h2 {
     font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 500;
     font-size: 64px;
     line-height: 78px;
-    /* identical to box height */   
-
-
     color: #FFF0D4;
+    text-align: center;
+    margin-bottom: 2em;
 }
 
-.tparent{
+.tparent {
     display: grid;
-    grid-template-columns: repeat(5,1fr);
-    grid-template-rows: repeat(2,3fr);
-    grid-row-gap: 2em;
-
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2em;
+    justify-items: center;
 }
 
-@media only screen and (width<=720px){
-    .Tcontainer{
-        height: auto;
+@media only screen and (max-width: 720px) {
+    .Tcontainer {
+        padding: 3em 1em;
     }
-    .tparent{
-        grid-template-columns: 1fr;
-    }
-    .Tcontainer h2{
+
+    .Tcontainer h2 {
         font-size: 44px;
         line-height: 58px;
-        margin-left: 5%;
     }
-    
-
 }
