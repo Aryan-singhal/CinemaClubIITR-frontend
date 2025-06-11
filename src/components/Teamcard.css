@@ -4,14 +4,14 @@
     height: 60%;
     width: 30%;
     border: 1px solid rgb(58, 57, 57);
-    box-shadow: 0px 0px 25px rgb(147, 95, 0) inset;
+    /* box-shadow: 0px 0px 25px rgb(255, 255, 255) inset; */
     border-radius: 5%;
     padding: 1.5em;
-    background-color: #FFF0D4;
+    background-color: #FFAF24;
     transition: transform 0.5s ease, background-color 0.5s ease;
 }
 .tcard:hover {
-    background-color: #ffc35b;   
+    background-color: #ffa200;   
     transform: scale(1.08);     
     cursor: pointer;
   }
@@ -30,7 +30,7 @@
     box-shadow: 1px 1px 10px black;
     height: 100%;
     width: 100%;
-    border-radius: 80%;
+    border-radius: 100%;
 }
 .tcardcontent{
 
@@ -47,7 +47,7 @@
     font-size: 29px;
     line-height: 34px;
     /* identical to box height */
-    color: #151515;
+    color: #FFF0D4;
     
 }
 
@@ -60,7 +60,7 @@
     font-size: 20px;
     line-height: 24px;
     
-    color: #494949;
+    color: #ffe6b8;
 
 }
 

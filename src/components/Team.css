@@ -1,5 +1,6 @@
 .Tcontainer{
-    background-color: #f1e3a5;
+    background-color: #695533;
+    color: #FFF0D4;
     /* background: linear-gradient(135deg, #fff4d2, #ffe9a0); */
     height: 100%;
     width: 100%;
@@ -22,7 +23,7 @@
     line-height: 78px;
     /* identical to box height */   
 
-    color: #000000;
+    color: #FFF0D4;
 }
 
 .tparent{
@@ -36,7 +37,7 @@
     justify-content: space-between;
     row-gap: 50px;
     column-gap: 30px;
-
+    background-color: #695533; /* slightly lighter for contrast */
 }
 
 @media only screen and (width<=720px){
