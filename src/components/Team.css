@@ -1,32 +1,87 @@
-.Tcontainer {
+.Tcontainer{
     background-color: #695533;
-    padding: 6em 2em 2em 2em;
-}
-
-.Tcontainer h2 {
-    font-family: 'Montserrat';
-    font-weight: 500;
-    font-size: 64px;
-    line-height: 78px;
     color: #FFF0D4;
+    /* background: linear-gradient(135deg, #fff4d2, #ffe9a0); */
+    height: 100%;
+    width: 100%;
+    /* margin-top: 0px;
+    padding:6em 0 0 6em; */
+    padding: 2em 5em 5em 5em;
+}
+
+.Tcontainer h2{
+    margin-top: 0px;
+    position: relative;
     text-align: center;
-    margin-bottom: 2em;
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 0.025px;
+    word-spacing: 0.5px;
+    line-height: 78px;
+    /* identical to box height */   
+
+    color: #FFF0D4;
 }
 
-.tparent {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2em;
-    justify-items: center;
+.tparent{
+    /* display: grid;
+    grid-template-columns: repeat(5,1fr); 
+    grid-template-rows: repeat(2,3fr);
+    grid-row-gap: 2em; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 50px;
+    column-gap: 30px;
+    background-color: #695533; /* slightly lighter for contrast */
 }
 
-@media only screen and (max-width: 720px) {
-    .Tcontainer {
-        padding: 3em 1em;
+@media only screen and (width<=720px){
+    .Tcontainer{
+        height: auto;
     }
-
-    .Tcontainer h2 {
+    .tparent{
+        grid-template-columns: 1fr;
+    }
+    .Tcontainer h2{
         font-size: 44px;
         line-height: 58px;
+        margin-left: 5%;
     }
+    
+
 }
+/* For tablets (768px to 1024px) */
+@media screen and (max-width: 1024px) {
+    .Tcontainer {
+      padding: 2em 3em;
+    }
+  
+    .Tcontainer h2 {
+      font-size: 36px;
+      line-height: 60px;
+    }
+  
+    .tparent {
+      justify-content: center;
+      gap: 40px;
+    }
+  }
+  
+  /* For mobile devices (less than 768px) */
+  @media screen and (max-width: 768px) {
+    .tparent {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+  
+    .Tcontainer h2 {
+      font-size: 28px;
+    }
+  }
+  
