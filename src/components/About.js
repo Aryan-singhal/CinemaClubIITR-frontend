@@ -9,7 +9,7 @@ function About() {
     <div className='about-container'>
         <div className="about-content">
             <h2 className='abth'>What Do We Do?</h2>
-            <p>Cinema club organizes screening of latest movies at <br /> <span>Convocation Hall,</span>with a size of around 1800 seats with the <br /> best projector in the city.These Screenings (which are free <br /> of cost,by the way) are met with much fanfare in a Convo <br /> bottled down to its full capacity.</p>
+            <p>Cinema club organizes screening of latest movies at <span>Convocation Hall,</span>with a size of around 1800 seats with the  best projector in the city.These Screenings (which are free of cost,by the way) are met with much fanfare in a Convo bottled down to its full capacity.</p>
             <div className="contact-btns">
                 <FacebookRoundedIcon/>
                 <InstagramIcon>

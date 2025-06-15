@@ -10,28 +10,31 @@
     font-weight:400;
     font-size: xx-large;
     color: #111111;
+    
 }
 .events-content{
     /* border: 1px solid red; */
     margin:25vh 0 0 10vh;
     font-size:x-large;
     color:#96876E;
+    width:30%;
+    
 
     
 }
 .imgcards{
     position: relative;
     height: 100vh;
+    /* width:100%; */
 }
 .crd1{
     /* border:1px solid red; */
     position: absolute;
-    top:25vh;
-    left:300px;
-
-    width: 185.7px;
-    height: 169.7px;
-    transform: rotate(10.57deg);
+    top:30%;
+    left:7em;
+    width:200px;
+    
+    transform: rotate(0deg);
     /* background-image: url('C:\Users\DELL\Desktop\cinema-main\cinema-club\public\images\convohall.jpg'); */
     background-size: cover;
     
@@ -40,38 +43,38 @@
 .crd2{
     /* border:1px solid red; */
     position: absolute;
-    top: 45vh;
-    left: 300px;
+    top: 65%;
+    left: 7em;
     width: 200.81px;
     height: 204.36px;
-    transform: rotate(-5.4deg);
+    transform: rotate(0deg);
     /* background-image: url('C:\Users\DELL\Desktop\cinema-main\cinema-club\public\images\random.png'); */
     background-size: cover;
     /* background-repeat: no-repeat; */
 
 }
-.crd3{
+/* .crd3{
     border:1px solid red;
     position: absolute;
-    top:30vh;
-    left:400px;
+    top:25vh;
+    left:200px;
     width: 200.81px;
     height: 271px;
     transform: rotate(6.25deg);
     /* background-image: url('C:\Users\DELL\Desktop\cinema-main\cinema-club\public\images\Picture6.jpg'); */
-    background-size: cover;
+    /* background-size: cover; */
     
     
 
-}
+
 .crd4{
     /* border:1px solid red; */
     position: absolute;
-    top: 25vh;
-    left: 500px;
+    top: 30%;
+    left: 30em;
     width: 200.81px;
     height: 204.36px;
-    transform: rotate(-10.5deg);
+    transform: rotate(0deg);
     /* background-image: url('C:\Users\DELL\Desktop\cinema-main\cinema-club\public\images\IMG_0734.jpg'); */
     background-size: cover;
 
@@ -80,12 +83,12 @@
     /* border:1px solid red; */
     position: absolute;
     
-    top: 50vh;
-    left: 500px;
+    top: 65%;
+    left: 30em;
 
     width: 200.81px;
     height: 204.36px;
-    transform: rotate(5.57deg);
+    transform: rotate(0deg);
     /* background-image: url('C:\Users\DELL\Desktop\cinema-main\cinema-club\public\images\IMG_0788.jpg'); */
     background-size: cover;
     
@@ -99,32 +102,35 @@
         height:auto;
     }
     .imgcards{
-        height: auto;
+        height:400px;
+        
     }
     .events-content{
         margin: 2em 0 0 1em;
-        font-size: large;
+        font-size: medium;
+        width: 90%;
     }
     .p3h{
-        font-size: x-large;
+        font-size: 150%;
+        
     }
     .crd1{
-        top:2em;
-        left: 2em;
+        top:6%;
+        left: 10%;
     }
     .crd2{
-        top: 12em;
-        left: 2em;
+        top: 50%;
+        left: 10%;
     }
     .crd4{
-        left:10em;
-        top: 2em;
+        left:60%;
+        top: 6%;
     }
     .crd5{
-        left:10em;
-        top: 12em;
+        left:60%;
+        top: 50%;
 
     }
-    
 }
+
 
