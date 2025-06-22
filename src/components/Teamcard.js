@@ -9,34 +9,18 @@ function Teamcard(props) {
   return (
     <div className='tcard'>
         <div className="tcardimg">
-          <img className="tcardimg" src={props.img} alt="" />
+          <img className="tcardImg" src={props.img} alt="" />
         </div>
         <div className="tcardcontent">
             <p>{props.Name}</p>
             <span id="position">{props.position}</span>
         </div>
-        {/* <div className="tcardlinks">
-          
-          
-            <a href={props.Linlink} target='_blank'>
-            <LinkedInIcon  className='lin'/>
-            </a>
-            <a href={props.Iglink} target='_blank'>
-            <InstagramIcon className='ig'/>
-            </a>
-            <a href={props.Tlink} target='_blank'>
-            <TwitterIcon className='twit'/>
-            </a>
-          
-          
-          <Link to = {props.Iglink}>
-          
-          </Link>
-
-        </div>  */}
       
     </div>
   )
 }
 
 export default Teamcard
+
+
+

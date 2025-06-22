@@ -9,8 +9,8 @@ function Home() {
     <>
     <div className='home-container'>
         <div className="home-content">
-            <p className='p1'>Welcome!</p>
-            <p className='p2'>Cinema Club</p>
+            <p className='p1'>Welcome to!</p>
+            <p className='p2'>Cinema Club </p>
             <div className="img1">
               {/* <img src="https://cdn5.vectorstock.com/i/1000x1000/34/39/cinema-camera-reel-icon-flat-style-vector-26633439.jpg" alt="" /> */}
 
