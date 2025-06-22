@@ -3,36 +3,67 @@
     flex-direction: row;
     height: 100vh;
     /* border:2px solid black */
-    
+    display: flex;
+    flex-direction: column;
 
 }
 .p3h{
     font-weight:400;
-    font-size: xx-large;
+    font-size:70px;
     color: #111111;
     
 }
 .events-content{
     /* border: 1px solid red; */
-    margin:25vh 0 0 10vh;
+    margin-right:2%;
+    margin-left:2%;
+    margin-top:4%;
     font-size:x-large;
     color:#96876E;
-    width:30%;
-    
-
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-around;
     
 }
+.img1{
+    width:50%;
+}
+.logoimg{
+    display: flex;
+    flex-direction: column;
+    width:40%;
+    gap:68px;
+}
+.about{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width:40%;
+    margin-top:-3em;
+    gap:20px;
+    
+}
+#p3{
+    font-size: xx-large;
+    color:black;
+}
+#p2{
+    font-weight: 400;
+   font-size:x-large;
+    color:#96876E;
+}
 .imgcards{
-    position: relative;
-    height: 100vh;
-    /* width:100%; */
+   display: flex;
+ gap :10px;
 }
 .crd1{
     /* border:1px solid red; */
     position: absolute;
     top:30%;
     left:7em;
-    width:200px;
+    
+    
     
     transform: rotate(0deg);
     /* background-image: url('C:\Users\DELL\Desktop\cinema-main\cinema-club\public\images\convohall.jpg'); */

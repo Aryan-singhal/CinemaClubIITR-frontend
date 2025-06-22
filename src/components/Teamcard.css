@@ -71,10 +71,10 @@
     .tcard{
         /* margin-left: 2em; */
         /* margin-right: 4em; */
-        width:min-content;
-    }
+        /* width:min-content; */
     
-}
+    
+
 @media screen and (max-width: 1024px) {
     .tcard {
       width: 45%;
