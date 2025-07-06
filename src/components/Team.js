@@ -5,45 +5,45 @@ import Teamcard from './Teamcard'
 function Team() {
   let team = [
     {
-      Name:"Abc",
-        img:"https://img.freepik.com/premium-photo/young-man-isolated-blue_1368-124991.jpg?semt=ais_hybrid&w=740",
+      Name:"Ankit Lal",
+        img:"images/ankit.jpg",
         position:" Secretary ",
         
 
     },
     {
-      Name:"Abc",
-        img:"https://img.freepik.com/premium-photo/young-man-isolated-blue_1368-124991.jpg?semt=ais_hybrid&w=740",
-        position:" Secretary ",
+      Name:"Ritesh Kumar Ratnakar",
+        img:"images/ritesh.jpg",
+        position:" Design Head",
         
 
     },
     {
-      Name:"Abc",
-        img:"https://img.freepik.com/premium-photo/young-man-isolated-blue_1368-124991.jpg?semt=ais_hybrid&w=740",
-        position:" Secretary ",
+      
+        Name:"Aryan Singhal",
+        img:"images/aryan.jpg",
+        position:"Additional Secretary",
+
+    },
+    {
+      Name:"Chanchal",
+        img:"images/Chanchal.jpg",
+        position:"Joint Secretary ",
         
 
     },
     {
-      Name:"Abc",
-        img:"https://img.freepik.com/premium-photo/young-man-isolated-blue_1368-124991.jpg?semt=ais_hybrid&w=740",
-        position:" Secretary ",
+      Name:"Grivann Patwa",
+        img:"images/Grivann.jpg",
+        position:"Joint Secretary ",
         
 
     },
     {
-      Name:"Abc",
-        img:"https://img.freepik.com/premium-photo/young-man-isolated-blue_1368-124991.jpg?semt=ais_hybrid&w=740",
-        position:" Secretary ",
-        
-
-    },
-    {
-      Name:"Abc",
-        img:"https://img.freepik.com/premium-photo/young-man-isolated-blue_1368-124991.jpg?semt=ais_hybrid&w=740",
-        position:" Secretary ",
-        
+      
+        Name:"Muskan Mimrot",
+        img:"images/muskan.jpg",
+        position:"Joint Secretary ",
 
     },
   
