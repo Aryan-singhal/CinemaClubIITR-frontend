@@ -1,36 +1,43 @@
 .Tcontainer{
     background-color: #695533;
-    height: 150%;
-    margin-top: 0px;
-    padding-top: 5%;
-    padding-left:5%;
+    color: #FFF0D4;
+    /* background: linear-gradient(135deg, #fff4d2, #ffe9a0); */
+    height: 100%;
+    width: 100%;
+    /* margin-top: 0px;
+    padding:6em 0 0 6em; */
+    padding: 2em 5em 5em 5em;
 }
 
 .Tcontainer h2{
     margin-top: 0px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
     font-style: normal;
-    font-weight: 500;
-    font-size: 400%;
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 0.025px;
+    word-spacing: 0.5px;
     line-height: 78px;
     /* identical to box height */   
-
 
     color: #FFF0D4;
 }
 
-/* .tparent{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
+.tparent{
+    /* display: grid;
+    grid-template-columns: repeat(5,1fr); 
     grid-template-rows: repeat(2,3fr);
     grid-row-gap: 2em; */
-
-.tparent {
-  padding-top: 2%;
-  padding-bottom: 4%;
-  display: grid;
-  gap: 20px;
-  grid-template-columns: repeat(3, 1fr); /* 3 members per row by default */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 50px;
+    column-gap: 30px;
+    background-color: #695533; /* slightly lighter for contrast */
 }
 
 @media (max-width: 768px) { /* Adjust for mobile */
@@ -60,4 +67,34 @@
     }
     
 
-} */
+}
+/* For tablets (768px to 1024px) */
+@media screen and (max-width: 1024px) {
+    .Tcontainer {
+      padding: 2em 3em;
+    }
+  
+    .Tcontainer h2 {
+      font-size: 36px;
+      line-height: 60px;
+    }
+  
+    .tparent {
+      justify-content: center;
+      gap: 40px;
+    }
+  }
+  
+  /* For mobile devices (less than 768px) */
+  @media screen and (max-width: 768px) {
+    .tparent {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+  
+    .Tcontainer h2 {
+      font-size: 28px;
+    }
+  }
+  
