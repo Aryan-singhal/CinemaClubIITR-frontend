@@ -1,5 +1,5 @@
 .ebox-container{
-    height: 36vh;
+    height: 10vw;
     width: 80vw;
     border-radius: 1em;
     background-color: #FFF0D4;
@@ -82,7 +82,7 @@
 @media only screen and (width<=785px){
     .ebox-container{
         width: 80vw;
-        height: 80vh;
+        height: 70vh;
         flex-direction: column;
         margin-bottom: 2em;
     }
@@ -128,7 +128,7 @@
 @media only screen and (width<=1300px)
 {
     .ebox-container{
-    height: 50vh;
+    height: 42vh;
     
     }
 }

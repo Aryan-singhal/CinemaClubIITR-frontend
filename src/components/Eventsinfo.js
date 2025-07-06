@@ -23,10 +23,6 @@ function Eventsinfo() {
             Venue="LHC"
             flag = "False"
             />
-
-            
-            
-            
         </div>
       
     </div>
