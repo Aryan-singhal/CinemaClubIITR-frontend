@@ -12,6 +12,19 @@ const Footer = () => {
                 <p className="footer-description">
                   The official film and media society of IIT Roorkee, Cinema Club hosts screenings, discussions, and creative work to foster storytelling and film appreciation.
                 </p>
+                <div className="whatsapp-cta">
+              <h4>Join Our WhatsApp Community</h4>
+              <p>Never miss an update. Get screening alerts & event news directly on WhatsApp.</p>
+              <a
+                href="https://chat.whatsapp.com/DhJtzgu5YD8BZHyx7jBBKP?mode=ac_c"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="whatsapp-button"
+              >
+                <img src="/whatsapp.png" alt="WhatsApp" className="whatsapp-icon" />
+                Join Now
+              </a>
+            </div>
               </div>
               {/* Column 2: Address */}
               <div className="footer-col address">
