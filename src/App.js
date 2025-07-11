@@ -1,4 +1,3 @@
-
 // import './App.css';
 import About from './components/About';
 // import Events from './components/Events';
@@ -11,7 +10,7 @@ import Eventsinfo from './components/Eventsinfo';
 import Registration from './components/Registration';
 import Team from './components/Team';
 import Moviesmain from './components/Moviesmain';
-
+import Footer from './components/Footer';
 
 
 
@@ -31,9 +30,11 @@ function App() {
       <Route path='/registration' element={<Registration />}/>
       </Routes>
       </BrowserRouter>
+      <Footer/>
       
     </div>
   );
 }
 
 export default App;
+

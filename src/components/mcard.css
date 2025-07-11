@@ -1,28 +1,35 @@
 .card-container {
-  width: 18rem;
-  margin: 1rem;
   
 }
 
 .card {
+
   position: relative;
   overflow: hidden;
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
-  background-color: #695533;
-  color: #f39c12;
+  background-color: #fff;
+}
+
+.image-wrapper {
+  position: relative;
+  padding-bottom: 150%;
+  height: 0;
 }
 
 .card-img {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 14em;
+  height: 100%;
   object-fit: cover;
   display: block;
 }
 
 .card-title-box {
-  background-color: #695533;
+  background-color: #fff;
   padding: 0.6rem 0.8rem;
   font-weight: bold;
   display: flex;
@@ -37,20 +44,17 @@
   padding: 0.3em 0.6em;
   border-radius: 0.3em;
   font-size: 0.8em;
-  margin-left: 0.6em;
 }
 
 .card-description {
   max-height: 0;
   overflow: hidden;
   padding: 0 1rem;
-  background-color: #695533;
+  background-color: #f9f9f9;
   transition: max-height 0.4s ease;
-  color: white;
-  font-weight: 100;
 }
 
 .card:hover .card-description {
-  max-height: 300px; /* enough height to show content */
+  max-height: 300px; 
   padding: 1rem;
 }

@@ -33,7 +33,6 @@
     border-radius: 100%;
 }
 .tcardcontent{
-
     text-align: center;
    
     line-height: 1px;
@@ -72,7 +71,6 @@
         /* margin-left: 2em; */
         /* margin-right: 4em; */
         /* width:min-content; */
-    
     
 
 @media screen and (max-width: 1024px) {
