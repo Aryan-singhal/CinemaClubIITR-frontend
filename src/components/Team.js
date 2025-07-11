@@ -6,7 +6,7 @@ function Team() {
   let team = [
     {
       Name:"Ankit Lal",
-        img:"images/ankit.jpg",
+        img:"images/Ankit.jpeg",
         position:" Secretary ",
         
 
@@ -17,6 +17,16 @@ function Team() {
         position:" Design Head",
         
 
+    },
+    {
+      Name:"Vivek Kumar",
+      img:"images/vivek.jpg",
+      position:"Outreach Head",
+    },
+    {
+      Name:"Harshita",
+      img:"images/harshita.jpg",
+      position:"Additional Secretary",
     },
     {
       
