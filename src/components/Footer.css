@@ -199,6 +199,48 @@
     }
   }
   
+  .whatsapp-cta {
+    margin-top: 20px;
+  }
+  
+  .whatsapp-cta h4 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 4px;
+    color: white;
+  }
+  
+  .whatsapp-cta p {
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+    color: #FFF0D4;
+  }
+  
+  .whatsapp-button {
+    display: inline-flex;
+    align-items: center;
+    background-color: #25D366;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-decoration: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+  }
+  
+  .whatsapp-button:hover {
+    background-color: #1ebe5d;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+  }
+  
+  .whatsapp-icon {
+    height: 20px;
+    margin-right: 8px;
+  }
+  
   @media (max-width: 480px) {
     .footer-description,
     .footer-col.explore {

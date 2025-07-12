@@ -10,9 +10,9 @@ function Mcard(props) {
         </div>
         <div className="card-title-box">
           <h5 className="card-title">
-            {props.title}
+            {props.title}</h5>
             <span className="badge rating">{props.rating}</span>
-          </h5>
+          
         </div>
         <div className="card-description">
           <p className="card-text">{props.description}</p>

@@ -34,9 +34,9 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
     row-gap: 50px;
-    column-gap: 30px;
+    column-gap: 40px;
     background-color: #695533; /* slightly lighter for contrast */
 }
 
