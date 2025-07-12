@@ -8,7 +8,8 @@
     
 }
 .about-content{
-    margin:30vh 0 0 10vh;
+    margin-top:16%;
+    margin-left:5%;
     width:50%;
     /* border :1px solid black; */
     color:#695533;
@@ -19,7 +20,7 @@
     border-radius: 5px;
     width: 30vw;
     height: 20vw;
-    margin:40vh 10vh 0 0;
+    margin:14% 10vh 0 0;
     transform: rotate(0deg);
     
     /* background-position: bottom 70vh right 20vh; */
@@ -36,10 +37,11 @@
     
 }
 
-@media only screen and (width<=837px){
+@media only screen and (width<=900px){
     .about-container{
         flex-direction: column;
         overflow-x: hidden;
+        height:80vh;
     }
     .about-content{
         width:80%;

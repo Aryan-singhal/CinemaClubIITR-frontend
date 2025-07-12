@@ -70,13 +70,8 @@
     .tcard{
         /* margin-left: 2em; */
         /* margin-right: 4em; */
-        /* width:min-content;}} */
-/* .tcard {
-  display: grid;
-  gap: 20px;
-  grid-template-columns: repeat(3, 1fr); /* 3 members per row by default */
-
-
+        /* width:min-content; */
+    
     
 
 @media screen and (max-width: 1024px) {
@@ -115,4 +110,5 @@
       font-size: 14px;
     }
   }
+  
   
