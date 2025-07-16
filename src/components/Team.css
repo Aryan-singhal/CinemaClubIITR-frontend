@@ -21,6 +21,7 @@
     letter-spacing: 0.025px;
     word-spacing: 0.5px;
     line-height: 78px;
+    margin-top: 45px;
     /* identical to box height */   
 
     color: #FFF0D4;
@@ -77,6 +78,7 @@
     .Tcontainer h2 {
       font-size: 36px;
       line-height: 60px;
+      margin-top: 40px;
     }
   
     .tparent {
@@ -95,6 +97,7 @@
   
     .Tcontainer h2 {
       font-size: 28px;
+      margin-top: 40px;
     }
   }
   

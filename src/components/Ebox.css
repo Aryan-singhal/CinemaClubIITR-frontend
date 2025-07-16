@@ -1,5 +1,5 @@
 .ebox-container{
-    height: 10vw;
+    /* height: 8.5vw; */
     width: 80vw;
     border-radius: 1em;
     background-color: #FFF0D4;
@@ -21,7 +21,6 @@
 .ebox-content{
     /* border:1px solid red; */
     width: 57vw;
-    height: 50vh;
     margin: 2em 0 2em 1em;
 }
 .ebox-content p{
@@ -40,6 +39,7 @@
     font-weight: 500;
     font-size: 40px;
     line-height: 24px;
+    margin-top: 10px !important;
 }
 .lrow{
     display: flex;
@@ -80,24 +80,37 @@
 }
 
 @media only screen and (width<=785px){
+    .ebox-content p{
+        font-size: 14px;
+    }
+        .ebox-content h2{
+        font-size: 26px;
+    }
+}
+
+
+@media only screen and (width<=585px){
     .ebox-container{
         width: 80vw;
-        height: 70vh;
         flex-direction: column;
         margin-bottom: 2em;
     }
     .boximg{
-        margin-left: 1.8em;
+        width: 45vw;
+        height: 45vw;
+        margin: 1em auto 0.5em auto;
+        display: block;
     }
     .ebox-content{
         /* border: 1px solid red; */
         width:70vw;
-        
+        margin-top: 0;
     }
     .ebox-content h2{
         font-weight: 500;
         font-size: 20px;
         line-height: 24px;
+    
     }
     .ebox-content p{
         font-size: 15px;
@@ -113,22 +126,4 @@
         flex-direction: column;
     }
 }
-@media only screen and (min-width:725px) and (max-width:890px){
-    .ebox-content p{
-        font-size: 15px;
-    }
-    .lrow p{
-        font-size :18px;
-    }
-    .ebox-container{
-    height: 36vh;
-    
-    }
-}
-@media only screen and (width<=1300px)
-{
-    .ebox-container{
-    height: 42vh;
-    
-    }
-}
+

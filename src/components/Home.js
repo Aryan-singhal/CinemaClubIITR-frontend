@@ -6,7 +6,7 @@ import './Home.css';
 
 const sliderData = [
   {
-    image: '/iit-rook.jpg',
+    image: '/images/jt.webp',
     title: 'Your Gateway to the World of Films',
     subtitle: 'Celebrating cinema through curated screenings, creative expression and passionate dialogue.'
   },
@@ -38,7 +38,7 @@ function Home() {
   }, [currentSlide]);
 
   return (
-    <>
+    <div className='all-container'>
       <div className="home-container">
         {sliderData.map((slide, index) => (
           <div
@@ -66,8 +66,8 @@ function Home() {
 
       <Events />
       <Screened />
-      <About />
-    </>
+      {/* <About /> */}
+    </div>
   );
 }
 

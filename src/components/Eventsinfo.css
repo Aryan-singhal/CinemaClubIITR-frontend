@@ -11,9 +11,10 @@
 }
 
 .einfo-parent h2{
+    margin-top: 65px;
     font-style: normal;
     font-weight: 500;
-    font-size: 60px;
+    font-size: 50px;
     line-height: 40px;
 
 }

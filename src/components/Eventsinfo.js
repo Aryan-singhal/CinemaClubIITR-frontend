@@ -8,20 +8,14 @@ function Eventsinfo() {
         <div className="einfo-parent">
             <h2>Events</h2>
             <Ebox
-            heading = "CINEQUEST"
-            para = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui soluta molestias nemo vel distinctio sequi blanditiis odio accusamus veritatis a, ipsam odit nulla quibusdam nemo vel distinctio sequi blanditiis odio accusamus veritatis a, ipsam odit nulla quibusdam"
-            date = "1 March 2023"
-            time="6:30 PM"
-            Venue="LHC"
-            flag ="True"
+            heading = "Box Office"
+            para = "Cinema Club IITR, in collaboration with Thomso, proudly hosted Box Office – the ultimate movie quiz celebrating cinema in all its forms. From timeless classics to modern blockbusters, participants put their film knowledge to the test in an exciting and competitive atmosphere."
+            image="./images/boxoff.jpg"
             />
             <Ebox
-            heading="BOX OFFICE"
-            para="Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui soluta molestias nemo vel distinctio sequi blanditiis odio accusamus veritatis a, ipsam odit nulla quibusdam nemo vel distinctio sequi blanditiis odio accusamus veritatis a, ipsam odit nulla quibusdam"
-            date = "16 October 2022"
-            time="9:00 AM"
-            Venue="LHC"
-            flag = "False"
+            heading="Beyond the Lens"
+            para="Cinema Club proudly hosted Beyond the Lens —a creative competition that celebrated the art of storytelling through engaging write-ups and innovative video editing. Participants explored unique cinematic perspectives, showcasing their originality, imagination, and editing skills."
+            image="./images/btlens.jpg"
             />
         </div>
       
