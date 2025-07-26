@@ -13,13 +13,13 @@ function Team() {
     },
     {
       Name:"Harshita",
-      img:"images/harshita.jpg",
+      img:"images/Harshita.jpg",
       position:"Additional Secretary",
     },
     {
       
         Name:"Aryan Singhal",
-        img:"images/aryan.jpg",
+        img:"images/Aryan.jpg",
         position:"Additional Secretary",
 
     },
@@ -58,7 +58,7 @@ function Team() {
     },
     {
       Name:"Vivek Kumar",
-      img:"images/vivek.jpg",
+      img:"images/Vivek.jpg",
       position:"Outreach Head",
     },
 

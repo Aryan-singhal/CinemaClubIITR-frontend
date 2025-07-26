@@ -76,12 +76,12 @@ function Moviesmain() {
       title:"Panga",
       description:"Panga is inspired by the life of a National-level Kabbadi player from India. It follows her triumphs, struggle, and overcoming of stereotypes. It shows how important family love and support is for success."
     },
-    {
-      rating:"6.9",
-      imgurl:"https://jiocinemaweb.cdn.jio.com/jioimages.cdn.jio.com/content/entry/dynamiccontent/thumbs/700/-/0/1/16/cf4aa610ea3d11e7ba4283afdd11d221_1583414120309_l_medium.jpg",
-      title:"Shubh Mangal Savdhan",
-      description:"In this remake of Kalyana Samayal Saadham (2013), a couple fall in love but then the groom discovers that he suffers from erectile dysfunction"
-    },
+    // {
+    //   rating:"6.9",
+    //   imgurl:"images/savdhan.png",
+    //   title:"Shubh Mangal Savdhan",
+    //   description:"In this remake of Kalyana Samayal Saadham (2013), a couple fall in love but then the groom discovers that he suffers from erectile dysfunction"
+    // },
     {
       rating:"8",
       imgurl:"https://images.news18.com/ibnlive/uploads/2025/02/The-Diplomat-John-Abraham-2025-02-e03af3643c19ca874cd36831f0f630f6-16x9.jpg",
@@ -96,7 +96,7 @@ function Moviesmain() {
     },
     {
       rating:"6.5",
-      imgurl:"https://www.worldblaze.in/wp-content/uploads/2025/01/Deva-2025.webp",
+      imgurl:"images/deva.avif",
       title:"Deva",
       description:"Directed by Rosshan Andrrews, Deva is a Hindi-language action thriller starring Shahid Kapoor as ACP Dev Ambre, a rebellious police Officer who loses his memory after an accident.The film follows his journey to solve a colleague's murder while grappling with his fragmented past.Pooja Hegde and Pavail Gulati also feauture in pivotal roles."
     }
