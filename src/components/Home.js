@@ -16,7 +16,7 @@ const sliderData = [
     subtitle: 'Experience cinema like never before — in the heart of campus with 1000+ roaring cinephiles.'
   },
   {
-    image: '/images/team.jpg',
+    image: '/images/team.JPG',
     title: 'The Faces Behind the Frame',
     subtitle: 'Crafting every cinematic moment — one screening, one event, one story at a time.'
   }
