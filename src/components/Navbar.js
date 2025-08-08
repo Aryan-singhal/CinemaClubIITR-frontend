@@ -12,7 +12,7 @@ function Navbar() {
   return (
     <div className="Navbar-container">
       <div className="logo">
-        <img src="C:\Users\DELL\Desktop\cinema-main\cinema-club\src\logo.png" alt="" />
+        <img src="/cc_logo1.png" alt="Cinema Club Logo" />
       </div>
 
       <div className="nav-parent">
