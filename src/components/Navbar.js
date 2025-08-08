@@ -12,8 +12,11 @@ function Navbar() {
   return (
     <div className="Navbar-container">
       <div className="logo">
-        <img src="/cc_logo1.png" alt="Cinema Club Logo" />
+        <a href="/">
+          <img src="/images/cc_logo1.png" alt="Cinema Club Logo" />
+        </a>
       </div>
+
 
       <div className="nav-parent">
         

@@ -8,7 +8,7 @@ const Footer = () => {
               {/* Column 1: About */}
               
               <div className="footer-col about">
-                <img src="/cc_logo1.png" alt="Cinema Club Logo" className="footer-logo" />
+                <img src="/images/cc_logo1.png" alt="Cinema Club Logo" className="footer-logo" />
                 <p className="footer-description">
                   The official film and media society of IIT Roorkee, Cinema Club hosts screenings, discussions, and creative work to foster storytelling and film appreciation.
                 </p>
