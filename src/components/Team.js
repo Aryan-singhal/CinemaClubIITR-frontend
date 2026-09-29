@@ -5,66 +5,57 @@ import Teamcard from './Teamcard'
 function Team() {
   let team = [
     {
-      Name:"Ankit Lal",
-        img:"images/Ankit.jpeg",
+      Name:"Chanchal",
+        img:"images/Chanchal.jpg",
         position:" Secretary ",
         
 
     },
     {
-      Name:"Harshita",
-      img:"images/Harshita.jpg",
+      Name:"Grivann Patwa",
+      img:"images/Grivann.jpg",
       position:"Additional Secretary",
     },
     {
-      
-        Name:"Aryan Singhal",
-        img:"images/Aryan.jpg",
-        position:"Additional Secretary",
-
-    },
-    {
-      Name:"Grivann Patwa",
-        img:"images/Grivann.jpg",
+      Name:"Chunmun",
+        img:"images/Chunmun.jpg",
         position:"Joint Secretary ",
-        
-
     },
     {
       
-        Name:"Muskan Mimrot",
-        img:"images/muskan.jpg",
+        Name:"Devanshi",
+        img:"images/Devanshi.jpg",
         position:"Joint Secretary ",
 
     },
     
     {
-      Name:"Chanchal",
-        img:"images/Chanchal.jpg",
+      Name:"Harsh Rishi",
+        img:"images/Harsh.jpg",
         position:"Joint Secretary ",
         
 
     },
     {
-        Name:"Aarush Manglecha",
-        img:"images/Aarush.jpg",
+        Name:"Bhanu Priya",
+        img:"images/Bhanu.jpg",
         position:"Joint Secretary ",
 
     },
       {
-      Name:"Ritesh Ratnakar",
-        img:"images/ritesh.jpg",
-        position:" Design Head",
+      Name:"Nitesh Kuriyal",
+        img:"images/Nitesh.jpg",
+        position:"Joint Secretary ",
     },
     {
-      Name:"Vivek Kumar",
-      img:"images/Vivek.jpg",
+      Name:"Aditya Manlawat",
+      img:"images/Aditya.jpg",
       position:"Outreach Head",
     },
     {
-      Name:"Devansh Kamra",
-      img:"images/Devansh.png",
-      position:"Member",
+      Name:"Rohit Singh",
+      img:"images/Rohit.jpg",
+      position:"Outreach Head",
     }
 
   ]
