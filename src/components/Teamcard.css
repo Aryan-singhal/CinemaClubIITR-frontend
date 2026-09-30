@@ -17,9 +17,11 @@
   }
 .tcardimg{
     /* border: 1px solid; */
-    height: 75%;
     width: 100%;
+    aspect-ratio: 1 / 1;
     margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 50%;
     
     
     
@@ -30,7 +32,9 @@
     box-shadow: 1px 1px 10px black;
     height: 100%;
     width: 100%;
-    border-radius: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: center;
 }
 .tcardcontent{
     text-align: center;
@@ -95,11 +99,6 @@
       width: 80%;        /* Take less horizontal space */
       padding: 1em;
       border-radius: 12px;
-    }
-  
-    .tcardImg {
-      height: auto;
-      width: 100%;
     }
   
     .tcardcontent p {
